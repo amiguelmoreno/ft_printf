@@ -1,6 +1,13 @@
-# 42cursus-00-ft_printf
-Development repo for 42cursus' ft_printf project
+<h1 align="center">
+	🖨️ ft_printf
+</h1>
 
+<p align="center">
+	<b><i>Recode of the function printf()</i></b><br>
+</p>
+<p align="center">
+	For further information about 42 Malaga and its projects, please refer to <a href="https://github.com/amiguelmoreno/42-Malaga"><b>42 Malaga repo</b></a>.
+</p>
 
 # Man
 
@@ -359,13 +366,8 @@ BSD                            October 25, 2002                            BSD
 ```
 </details>
 
-  
-  
-# Testing
+
 
 ## Testers
 - [Tripouille / printfTester](https://github.com/Tripouille/printfTester)
 - [xicodomingues / francinette](https://github.com/xicodomingues/francinette)
-  
-## Result
- ![ft_printf francinette result](img/ft_printf_tester.gif)
