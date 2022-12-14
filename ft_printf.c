@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ajordan- <ajordan-@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: antmoren <antmoren@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/06 11:58:09 by ajordan-          #+#    #+#             */
-/*   Updated: 2021/09/28 09:42:55 by ajordan-         ###   ########.fr       */
+/*   Updated: 2022/12/04 21:05:06 by antmoren         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,6 @@ int	ft_printf(const char *str, ...)
 			print_length += ft_printchar(str[i]);
 		i++;
 	}
-	va_end(args);
+	//va_end(args);
 	return (print_length);
 }
